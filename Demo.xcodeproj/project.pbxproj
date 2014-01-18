@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF20D983188B218700E62158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF20D982188B218700E62158 /* Main.storyboard */; };
 		DF5611BD188B0D5300AD35F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5611BC188B0D5300AD35F0 /* Foundation.framework */; };
 		DF5611BF188B0D5300AD35F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5611BE188B0D5300AD35F0 /* CoreGraphics.framework */; };
 		DF5611C1188B0D5300AD35F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5611C0188B0D5300AD35F0 /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF20D982188B218700E62158 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		DF5611B9188B0D5300AD35F0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5611BC188B0D5300AD35F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DF5611BE188B0D5300AD35F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF20D981188B216900E62158 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DF20D982188B218700E62158 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		DF5611B0188B0D5300AD35F0 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +120,7 @@
 				DF5611CB188B0D5300AD35F0 /* MOAppDelegate.h */,
 				DF5611CC188B0D5300AD35F0 /* MOAppDelegate.m */,
 				DF5611CE188B0D5300AD35F0 /* Images.xcassets */,
+				DF20D981188B216900E62158 /* Storyboards */,
 				DF5611C3188B0D5300AD35F0 /* Supporting Files */,
 			);
 			path = Demo;
@@ -220,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF20D983188B218700E62158 /* Main.storyboard in Resources */,
 				DF5611C7188B0D5300AD35F0 /* InfoPlist.strings in Resources */,
 				DF5611CF188B0D5300AD35F0 /* Images.xcassets in Resources */,
 			);
@@ -442,6 +454,7 @@
 				DF5611E7188B0D5300AD35F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF5611E8188B0D5300AD35F0 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +463,7 @@
 				DF5611EA188B0D5300AD35F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
