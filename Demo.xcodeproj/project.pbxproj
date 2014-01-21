@@ -21,6 +21,7 @@
 		DF5611E0188B0D5300AD35F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5611DE188B0D5300AD35F0 /* InfoPlist.strings */; };
 		DF5611E2188B0D5300AD35F0 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5611E1188B0D5300AD35F0 /* DemoTests.m */; };
 		DF58A61B188F150B001726B3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF58A61A188F150B001726B3 /* MapKit.framework */; };
+		DF58A61F188F2FA0001726B3 /* MOBlueTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DF58A61E188F2FA0001726B3 /* MOBlueTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		DF5611DF188B0D5300AD35F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF5611E1188B0D5300AD35F0 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
 		DF58A61A188F150B001726B3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DF58A61D188F2FA0001726B3 /* MOBlueTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOBlueTextField.h; path = Views/MOBlueTextField.h; sourceTree = "<group>"; };
+		DF58A61E188F2FA0001726B3 /* MOBlueTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOBlueTextField.m; path = Views/MOBlueTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,7 @@
 				DF5611CB188B0D5300AD35F0 /* MOAppDelegate.h */,
 				DF5611CC188B0D5300AD35F0 /* MOAppDelegate.m */,
 				DF5611CE188B0D5300AD35F0 /* Images.xcassets */,
+				DF58A61C188F2F50001726B3 /* Styles */,
 				DF20D981188B216900E62158 /* Storyboards */,
 				DF5611C3188B0D5300AD35F0 /* Supporting Files */,
 			);
@@ -157,6 +161,15 @@
 				DF5611DE188B0D5300AD35F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF58A61C188F2F50001726B3 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				DF58A61D188F2FA0001726B3 /* MOBlueTextField.h */,
+				DF58A61E188F2FA0001726B3 /* MOBlueTextField.m */,
+			);
+			name = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +271,7 @@
 			files = (
 				DF5611CD188B0D5300AD35F0 /* MOAppDelegate.m in Sources */,
 				DF5611C9188B0D5300AD35F0 /* main.m in Sources */,
+				DF58A61F188F2FA0001726B3 /* MOBlueTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
