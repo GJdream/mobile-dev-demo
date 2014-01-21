@@ -20,6 +20,7 @@
 		DF5611D8188B0D5300AD35F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5611C0188B0D5300AD35F0 /* UIKit.framework */; };
 		DF5611E0188B0D5300AD35F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5611DE188B0D5300AD35F0 /* InfoPlist.strings */; };
 		DF5611E2188B0D5300AD35F0 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5611E1188B0D5300AD35F0 /* DemoTests.m */; };
+		DF58A61B188F150B001726B3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF58A61A188F150B001726B3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		DF5611DD188B0D5300AD35F0 /* DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTests-Info.plist"; sourceTree = "<group>"; };
 		DF5611DF188B0D5300AD35F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF5611E1188B0D5300AD35F0 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		DF58A61A188F150B001726B3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF58A61B188F150B001726B3 /* MapKit.framework in Frameworks */,
 				DF5611BF188B0D5300AD35F0 /* CoreGraphics.framework in Frameworks */,
 				DF5611C1188B0D5300AD35F0 /* UIKit.framework in Frameworks */,
 				DF5611BD188B0D5300AD35F0 /* Foundation.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		DF5611BB188B0D5300AD35F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF58A61A188F150B001726B3 /* MapKit.framework */,
 				DF5611BC188B0D5300AD35F0 /* Foundation.framework */,
 				DF5611BE188B0D5300AD35F0 /* CoreGraphics.framework */,
 				DF5611C0188B0D5300AD35F0 /* UIKit.framework */,
