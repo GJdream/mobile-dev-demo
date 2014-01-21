@@ -22,6 +22,7 @@
 		DF5611E2188B0D5300AD35F0 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5611E1188B0D5300AD35F0 /* DemoTests.m */; };
 		DF58A61B188F150B001726B3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF58A61A188F150B001726B3 /* MapKit.framework */; };
 		DF58A61F188F2FA0001726B3 /* MOBlueTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DF58A61E188F2FA0001726B3 /* MOBlueTextField.m */; };
+		DF58A623188F321A001726B3 /* MOMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF58A622188F321A001726B3 /* MOMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		DF58A61A188F150B001726B3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DF58A61D188F2FA0001726B3 /* MOBlueTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOBlueTextField.h; path = Views/MOBlueTextField.h; sourceTree = "<group>"; };
 		DF58A61E188F2FA0001726B3 /* MOBlueTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOBlueTextField.m; path = Views/MOBlueTextField.m; sourceTree = "<group>"; };
+		DF58A621188F321A001726B3 /* MOMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMapViewController.h; path = "View Controllers/MOMapViewController.h"; sourceTree = "<group>"; };
+		DF58A622188F321A001726B3 /* MOMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMapViewController.m; path = "View Controllers/MOMapViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,7 @@
 				DF5611CB188B0D5300AD35F0 /* MOAppDelegate.h */,
 				DF5611CC188B0D5300AD35F0 /* MOAppDelegate.m */,
 				DF5611CE188B0D5300AD35F0 /* Images.xcassets */,
+				DF58A620188F31F3001726B3 /* View Controllers */,
 				DF58A61C188F2F50001726B3 /* Styles */,
 				DF20D981188B216900E62158 /* Storyboards */,
 				DF5611C3188B0D5300AD35F0 /* Supporting Files */,
@@ -170,6 +174,15 @@
 				DF58A61E188F2FA0001726B3 /* MOBlueTextField.m */,
 			);
 			name = Styles;
+			sourceTree = "<group>";
+		};
+		DF58A620188F31F3001726B3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF58A621188F321A001726B3 /* MOMapViewController.h */,
+				DF58A622188F321A001726B3 /* MOMapViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5611CD188B0D5300AD35F0 /* MOAppDelegate.m in Sources */,
+				DF58A623188F321A001726B3 /* MOMapViewController.m in Sources */,
 				DF5611C9188B0D5300AD35F0 /* main.m in Sources */,
 				DF58A61F188F2FA0001726B3 /* MOBlueTextField.m in Sources */,
 			);

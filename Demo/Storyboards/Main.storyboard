@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="UJG-e5-guU">
             <objects>
-                <viewController id="9Ux-90-wLY" sceneMemberID="viewController">
+                <viewController id="9Ux-90-wLY" customClass="MOMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8EL-BI-c0j"/>
                         <viewControllerLayoutGuide type="bottom" id="hk5-Xy-bdf"/>
@@ -26,11 +26,17 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9Ux-90-wLY" id="m6G-kd-Koh"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="rSH-jz-5RB"/>
+                    <connections>
+                        <outlet property="mapView" destination="wE3-3v-ojH" id="Ob4-8h-r8Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z5L-He-8Fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
