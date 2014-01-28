@@ -30,6 +30,21 @@
                                     <outlet property="delegate" destination="9Ux-90-wLY" id="m6G-kd-Koh"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oF4-vX-Lj8">
+                                <rect key="frame" x="268" y="22" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="favorite-icon" backgroundImage="rounded-blue-button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFV-jp-PuX" customClass="MOWhiteButton">
+                                <rect key="frame" x="268" y="516" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="navigation-icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -40,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z5L-He-8Fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991" y="175"/>
+            <point key="canvasLocation" x="996" y="175"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Irz-Ab-zfF">
@@ -62,6 +77,11 @@
             <point key="canvasLocation" x="465" y="175"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="favorite-icon" width="24" height="21"/>
+        <image name="navigation-icon" width="29" height="29"/>
+        <image name="rounded-blue-button" width="44" height="44"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
