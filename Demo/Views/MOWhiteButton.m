@@ -26,7 +26,7 @@
 {
     // Drawing code
     //// Frames
-    CGRect frame = CGRectMake(0, 0, 44, 44);
+    CGRect frame = self.bounds;
     
     
     //// Rounded Rectangle Drawing
