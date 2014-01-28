@@ -60,16 +60,16 @@
             </objects>
             <point key="canvasLocation" x="996" y="175"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Favorite Table View Controller-->
         <scene sceneID="MPM-2v-y3M">
             <objects>
-                <tableViewController id="Vjh-39-Iof" sceneMemberID="viewController">
+                <tableViewController id="Vjh-39-Iof" customClass="MOFavoriteTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2sR-11-jhg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="y5o-jm-jTQ">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DefaultCell" id="y5o-jm-jTQ">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y5o-jm-jTQ" id="rch-t4-FZY">
@@ -83,7 +83,13 @@
                             <outlet property="delegate" destination="Vjh-39-Iof" id="cZ5-HI-naQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="2K5-zn-oeC"/>
+                    <navigationItem key="navigationItem" id="2K5-zn-oeC">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="XEk-UG-JzM">
+                            <connections>
+                                <action selector="cancel:" destination="Vjh-39-Iof" id="7PI-7h-7Y8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0vT-18-dPx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

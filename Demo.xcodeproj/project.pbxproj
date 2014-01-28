@@ -24,6 +24,7 @@
 		DF58A61F188F2FA0001726B3 /* MOBlueTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DF58A61E188F2FA0001726B3 /* MOBlueTextField.m */; };
 		DF58A623188F321A001726B3 /* MOMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF58A622188F321A001726B3 /* MOMapViewController.m */; };
 		DFD5D1FF1897347F00A4ACF3 /* MOWhiteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD5D1FE1897347F00A4ACF3 /* MOWhiteButton.m */; };
+		DFD5D20218975C6800A4ACF3 /* MOFavoriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD5D20118975C6800A4ACF3 /* MOFavoriteTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		DF58A622188F321A001726B3 /* MOMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMapViewController.m; path = "View Controllers/MOMapViewController.m"; sourceTree = "<group>"; };
 		DFD5D1FD1897347F00A4ACF3 /* MOWhiteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOWhiteButton.h; path = Views/MOWhiteButton.h; sourceTree = "<group>"; };
 		DFD5D1FE1897347F00A4ACF3 /* MOWhiteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOWhiteButton.m; path = Views/MOWhiteButton.m; sourceTree = "<group>"; };
+		DFD5D20018975C6800A4ACF3 /* MOFavoriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOFavoriteTableViewController.h; path = "View Controllers/MOFavoriteTableViewController.h"; sourceTree = "<group>"; };
+		DFD5D20118975C6800A4ACF3 /* MOFavoriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOFavoriteTableViewController.m; path = "View Controllers/MOFavoriteTableViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 			children = (
 				DF58A621188F321A001726B3 /* MOMapViewController.h */,
 				DF58A622188F321A001726B3 /* MOMapViewController.m */,
+				DFD5D20018975C6800A4ACF3 /* MOFavoriteTableViewController.h */,
+				DFD5D20118975C6800A4ACF3 /* MOFavoriteTableViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				DF5611CD188B0D5300AD35F0 /* MOAppDelegate.m in Sources */,
 				DFD5D1FF1897347F00A4ACF3 /* MOWhiteButton.m in Sources */,
 				DF58A623188F321A001726B3 /* MOMapViewController.m in Sources */,
+				DFD5D20218975C6800A4ACF3 /* MOFavoriteTableViewController.m in Sources */,
 				DF5611C9188B0D5300AD35F0 /* main.m in Sources */,
 				DF58A61F188F2FA0001726B3 /* MOBlueTextField.m in Sources */,
 			);
